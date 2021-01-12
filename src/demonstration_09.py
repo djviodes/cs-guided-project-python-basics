@@ -12,6 +12,23 @@ Examples:
 Notes:
 - All of the letters in the input list will always be lowercase.
 """
-def mapping(letters):
-    # Your code here
 
+
+def mapping(letters):
+    dictionary = {}
+    for letter in letters:
+        dictionary[letter] = letter.swapcase()
+    return dictionary
+
+
+"""
+One Liner Version
+
+def mapping(letters):
+    return({letter: letter.upper() for letter in letters})
+"""
+
+
+print(mapping(["p", "s"]))
+print(mapping(["a", "b", "c"]))
+print(mapping(["a", "v", "y", "z"]))

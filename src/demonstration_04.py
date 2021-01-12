@@ -9,6 +9,13 @@ Examples:
 - find_perimeter(20, 10) ➞ 60
 - find_perimeter(2, 9) ➞ 22
 """
-def find_perimeter(length, width):
-    # Your code here
 
+
+def find_perimeter(length, width):
+    perimeter = 2 * (length + width)
+    return perimeter
+
+
+print(find_perimeter(6, 7))
+print(find_perimeter(20, 10))
+print(find_perimeter(2, 9))

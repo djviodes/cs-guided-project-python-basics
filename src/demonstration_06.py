@@ -16,5 +16,5 @@ Examples:
 - XO("zzoo") ➞ False
 """
 def XO(txt):
-    # Your code here
+    
 
